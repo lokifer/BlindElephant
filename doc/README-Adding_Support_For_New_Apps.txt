@@ -66,5 +66,8 @@ fu.pick_indicator_files(versionNodes, allVersions)
 ['/pub/TWiki/TWikiDocGraphics/sitemap.gif', '/pub/TWiki/TinyMCEPlugin/tinymce/docs/index.html', '/COPYING', '/pub/TWiki/JSCalendarContrib/lang/calendar-fi.js', '/pub/TWiki/TWikiDocGraphics/mail.gif', '/LICENSE']
 Paste the result into the indicatorFiles key of the webapp config entry.
 
-8) Try it out!
+8) Run the setup.py file again.
+python setup.py install
+
+9) Try it out!
 python BlindElephant.py http://example.com/twiki/ twiki
